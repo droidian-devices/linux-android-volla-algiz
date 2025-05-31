@@ -64,11 +64,6 @@ modules.builtin
 /*.spec
 
 #
-# Debian directory (make deb-pkg)
-#
-/debian/
-
-#
 # Snap directory (make snap-pkg)
 #
 /snap/
@@ -134,3 +129,5 @@ all.config
 *.kdev4
 
 !drivers/misc/mediatek/fpsgo_cus/src/*.o
+
+out
